@@ -1,0 +1,65 @@
+/* reset */
+/*初始化*/
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,button,p,dd,img {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f7f7f7;
+	font: 12px microsoft yahei;
+}
+img {
+	/*清除图片底部默认缝隙*/
+	vertical-align: top;
+	border: 0 none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+em,i {
+	font-style: normal;
+}
+li {
+	list-style: none;
+}
+input,button {
+	border: 0 none;
+	/*清除轮廓线*/
+	outline-style: none;
+	
+}
+a {
+	text-decoration: none;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 26px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
